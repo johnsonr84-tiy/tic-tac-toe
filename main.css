@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+.gameBoard {
+  display: flex;
+  width: 75vw;
+  height: 75vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.cell {
+  height: 33.3%;
+  width: 33.3%;
+  border: thin solid black;
+  display: flex;
+  font-size: 5em;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+.cell:hover {
+  cursor: pointer;
+  background-color: #3CAEFF;
+}
